@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: "../../public/images/portfolio.png",
+    image: "/images/portfolio.webp",
     alt: "photo de mon portfolio",
     title: "Mon portfolio",
     link: "https://github.com/AnthonyMarcelin/portfolio",
@@ -8,7 +8,7 @@ const projects = [
     techno: ["React", "Tailwind"],
   },
   {
-    image: "../../public/images/API spirit.png",
+    image: "/images/API_spirit.webp",
     alt: "photo de verres d'alcool",
     title: "SpiritsManagement-API",
     link: "https://github.com/AnthonyMarcelin/SpiritsManagement-API",
@@ -17,7 +17,7 @@ const projects = [
     techno: ["Javascript", "PostgreSQL"],
   },
   {
-    image: "../../public/images/hero league.png",
+    image: "/images/hero_league.webp",
     alt: "photo du projet",
     title: "Hero League",
     link: "https://github.com/AnthonyMarcelin/Projet-heroes-league",
