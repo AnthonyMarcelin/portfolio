@@ -13,7 +13,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
-            <div className="text-xl font-semibold">{project.link}</div>
+            <a href={project.link} target="blank">
+              <div className="text-xl font-semibold">{project.link}</div>
+            </a>
             <p className="text-gray-400">{project.description}</p>
           </div>
 

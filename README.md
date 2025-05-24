@@ -1,2 +1,11 @@
-Faire les liens navbar et projets
-Rajouter projet
+# Projet de Portfolio
+
+## Technos utilisées :
+
+- REACT
+- VIte
+- TailwwindCSS
+
+## To do :
+
+- Add projects

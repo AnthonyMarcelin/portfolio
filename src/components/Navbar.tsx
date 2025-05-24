@@ -74,7 +74,7 @@ const Navbar = () => {
             </a>
 
             <a
-              href="#skills"
+              href="#tech"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               Compétences
