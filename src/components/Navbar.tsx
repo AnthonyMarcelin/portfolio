@@ -46,12 +46,16 @@ const Navbar = () => {
       </ul>
 
       <ul className="hidden md:flex gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-          <BsGithub />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-          <BsLinkedin />
-        </li>
+        <a href="https://github.com/AnthonyMarcelin" target="blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+            <BsGithub />
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/anthony-marcelin" target="blank">
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+            <BsLinkedin />
+          </li>
+        </a>
       </ul>
       {isOpen ? (
         <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
@@ -95,12 +99,19 @@ const Navbar = () => {
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <BsGithub />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <BsLinkedin />
-            </li>
+            <a href="https://github.com/AnthonyMarcelin" target="blank">
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+                <BsGithub />
+              </li>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anthony-marcelin"
+              target="blank"
+            >
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+                <BsLinkedin />
+              </li>
+            </a>
           </ul>
         </div>
       )}
