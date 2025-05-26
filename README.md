@@ -9,6 +9,7 @@
 ## To do :
 
 - Add projects
+- essayer avec surge
 
 ## Changements à verif
 

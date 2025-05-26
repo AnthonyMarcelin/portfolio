@@ -1,3 +1,4 @@
+import { BsLink } from "react-icons/bs";
 import type { IProject } from "../@types";
 import ScrollReveal from "../utils/ScrollReveal";
 
@@ -13,9 +14,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
-            <a href={project.link} target="blank">
-              <div className="text-xl font-semibold">{project.link}</div>
-            </a>
+            <div className="flex flex-row gap-2">
+              <p>Go :</p>
+              <a href={project.link} target="blank">
+                <BsLink className="text-2xl text-white transition-all duration-300 hover:scale-125 hover:text-indigo-500" />
+              </a>
+            </div>
             <p className="text-gray-400">{project.description}</p>
           </div>
 
