@@ -13,7 +13,7 @@ const projects = [
     title: "SpiritsManagement-API",
     link: "https://github.com/AnthonyMarcelin/SpiritsManagement-API",
     description:
-      "Création d'une api pour a terme créer une appli de gestion de favoris de spiritueux, dont whisky en priorité.",
+      "Création d'une api pour à terme créer une appli de gestion de favoris de spiritueux, dont whisky en priorité.",
     techno: ["Javascript", "PostgreSQL"],
   },
   {

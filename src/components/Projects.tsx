@@ -1,7 +1,11 @@
 import projects from "../data/projects";
-
 import ProjectCard from "./ProjectCard";
 import ScrollReveal from "../utils/ScrollReveal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Projects = () => {
   return (
@@ -14,10 +18,30 @@ const Projects = () => {
           Mes projets
         </h1>
       </ScrollReveal>
-      <div className="flex w-full max-w-[1000px] flex-col gap-16 text-white">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+      <div className="w-full max-w-[1200px]">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
+          className="w-full pb-12" // Ajout de padding en bas pour la pagination
+        >
+          {projects.map((project, index) => (
+            <SwiperSlide key={index} className="h-auto">
+              <ProjectCard project={project} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
