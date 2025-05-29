@@ -57,11 +57,14 @@ const Navbar = () => {
           </li>
         </a>
       </ul>
-      {isOpen ? (
-        <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
-      ) : (
-        <BiMenu className="block md:hidden text-4xl" onClick={menuOpen} />
-      )}
+
+      <button onClick={menuOpen} aria-label="Toggle menu">
+        {isOpen ? (
+          <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
+        ) : (
+          <BiMenu className="block md:hidden text-4xl" onClick={menuOpen} />
+        )}
+      </button>
 
       {isOpen && (
         <div
