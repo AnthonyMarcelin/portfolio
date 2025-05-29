@@ -9,6 +9,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
       <a
@@ -81,6 +85,7 @@ const Navbar = () => {
           <ul className="flex flex-col gap-8">
             <a
               href="#home"
+              onClick={handleClick}
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               Accueil
@@ -88,6 +93,7 @@ const Navbar = () => {
 
             <a
               href="#tech"
+              onClick={handleClick}
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               Compétences
@@ -95,6 +101,7 @@ const Navbar = () => {
 
             <a
               href="#projects"
+              onClick={handleClick}
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               Projets
@@ -102,19 +109,25 @@ const Navbar = () => {
 
             <a
               href="#contact"
+              onClick={handleClick}
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               Contact
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <a href="https://github.com/AnthonyMarcelin" target="blank">
+            <a
+              href="https://github.com/AnthonyMarcelin"
+              onClick={handleClick}
+              target="blank"
+            >
               <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
                 <BsGithub />
               </li>
             </a>
             <a
               href="https://www.linkedin.com/in/anthony-marcelin"
+              onClick={handleClick}
               target="blank"
             >
               <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
