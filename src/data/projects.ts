@@ -17,13 +17,13 @@ const projects = [
     techno: ["Javascript", "PostgreSQL"],
   },
   {
-    image: "/images/hero_league.webp",
+    image: "/images/ai-covoit.webp",
     alt: "photo du projet",
-    title: "Hero League",
-    link: "https://github.com/AnthonyMarcelin/Projet-heroes-league",
+    title: "AI-Cocoit",
+    link: "https://github.com/AnthonyMarcelin/AI-Covoit",
     description:
-      "Projet en HTML / CSS effectué en formation en responsive / mobile first",
-    techno: ["HTML", "CSS"],
+      "Parcours sur 2 jours en formation pour la création d'un backend avec docker pour une plateforme de covoiturage IA",
+    techno: ["Docker", "Micro Services", "API"],
   },
   {
     image: "/images/ocoffee.webp",
@@ -51,6 +51,15 @@ const projects = [
     description:
       "Projet d'une plateforme de restaurants en React-native effectué en formation",
     techno: ["React-native", "Typescript"],
+  },
+  {
+    image: "/images/hero_league.webp",
+    alt: "photo du projet",
+    title: "Hero League",
+    link: "https://github.com/AnthonyMarcelin/Projet-heroes-league",
+    description:
+      "Projet en HTML / CSS effectué en formation en responsive / mobile first",
+    techno: ["HTML", "CSS"],
   },
 ];
 
