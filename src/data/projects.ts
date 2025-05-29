@@ -30,7 +30,8 @@ const projects = [
     alt: "photo du projet",
     title: "O'Coffee",
     link: "https://github.com/AnthonyMarcelin/Ocoffee",
-    description: "Projet d'une boutique de café en EJS effectué en formation",
+    description:
+      "Projet d'une boutique de café en EJS + BDD effectué en formation",
     techno: ["EJS"],
   },
   {
@@ -38,7 +39,8 @@ const projects = [
     alt: "photo du projet",
     title: "O'Quiz",
     link: "https://github.com/AnthonyMarcelin/Oquiz",
-    description: "Projet d'une plateforme de quiz en EJS effectué en formation",
+    description:
+      "Projet d'une plateforme de quiz en EJS + BDD effectué en formation",
     techno: ["EJS", "PostgreSQL"],
   },
   {

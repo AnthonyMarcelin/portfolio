@@ -4,6 +4,7 @@ import Tech from "../components/Tech";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import CV from "../components/CV";
 
 function Homepage() {
   return (
@@ -12,6 +13,7 @@ function Homepage() {
       <Hero />
       <Tech />
       <Projects />
+      <CV />
       <Contact />
       <Footer />
     </>

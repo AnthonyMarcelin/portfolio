@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 import techs from "../data/techs";
 
 const Tech = () => {
@@ -30,11 +30,19 @@ const Tech = () => {
               variants={variants}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.7 + index * 0.2 }}
+              transition={{
+                duration: 1,
+                ease: "easeOut",
+                delay: index * 0.27,
+              }}
+              className="group flex cursor-pointer flex-col items-center gap-2  duration-500 ease-out hover:-translate-y-5"
             >
               <Icon
-                className={`cursor-pointer text-[80px] ${tech.color} transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]`}
+                className={`text-[80px] ${tech.color} sm:text-[100px] md:text-[120px]`}
               />
+              <span className="text-center text-white text-sm font-light">
+                {tech.desc}
+              </span>
             </motion.div>
           );
         })}

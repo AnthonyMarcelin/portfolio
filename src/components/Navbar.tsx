@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsDownload, BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,6 +54,12 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/anthony-marcelin" target="blank">
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
             <BsLinkedin />
+          </li>
+        </a>
+        <a href="/src/data/CV anthony marcelin.pdf" download>
+          <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-purple-500 hover:opacity-100 flex items-center">
+            <BsDownload />
+            <span className="text-sm ml-1">CV</span>
           </li>
         </a>
       </ul>
@@ -113,6 +119,12 @@ const Navbar = () => {
             >
               <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
                 <BsLinkedin />
+              </li>
+            </a>
+            <a href="/cv.pdf" download>
+              <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-purple-500 hover:opacity-100 flex items-center">
+                <BsDownload />
+                <span className="text-sm ml-1">CV</span>
               </li>
             </a>
           </ul>
