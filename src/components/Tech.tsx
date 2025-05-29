@@ -41,7 +41,7 @@ const Tech = () => {
                 className={`text-[80px] ${tech.color} sm:text-[100px] md:text-[120px]`}
               />
               <span className="text-center text-white text-sm font-light">
-                {tech.desc}
+                {tech.name}
               </span>
             </motion.div>
           );
