@@ -134,7 +134,7 @@ const Navbar = () => {
                 <BsLinkedin />
               </li>
             </a>
-            <a href="/cv.pdf" download>
+            <a href="/src/data/CV.pdf" download>
               <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-purple-500 hover:opacity-100 flex items-center">
                 <BsDownload />
                 <span className="text-sm ml-1">CV</span>
