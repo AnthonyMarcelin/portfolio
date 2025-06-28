@@ -26,10 +26,11 @@ const Tech = () => {
           const Icon = tech.icon;
           return (
             <motion.div
-              key={index}
+              key={tech.name}
               variants={variants}
               initial="hidden"
               whileInView="visible"
+              viewport={{ once: true }}
               transition={{
                 duration: 1,
                 ease: "easeOut",
