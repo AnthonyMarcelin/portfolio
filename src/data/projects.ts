@@ -8,6 +8,14 @@ const projects = [
     techno: ["React", "Tailwind", "Typescript"],
   },
   {
+    image: "/images/skillswap.webp",
+    alt: "photo du projet",
+    title: "SkillSwap",
+    link: "https://github.com/AnthonyMarcelin/SkillSwap",
+    description: "Plateforme d’échange de compétences en React / API",
+    techno: ["REACT", "Typescript", "PostgreSQL", "ExpressJS", "Docker"],
+  },
+  {
     image: "/images/API_spirit.webp",
     alt: "photo de verres d'alcool",
     title: "SpiritsManagement-API",
@@ -60,14 +68,6 @@ const projects = [
     description:
       "Projet en HTML / CSS effectué en formation en responsive / mobile first",
     techno: ["HTML", "CSS"],
-  },
-  {
-    image: "/images/skillswap.webp",
-    alt: "photo du projet",
-    title: "SkillSwap",
-    link: "https://github.com/AnthonyMarcelin/SkillSwap",
-    description: "Plateforme d’échange de compétences en React / API",
-    techno: ["REACT", "Typescript", "PostgreSQL", "ExpressJS", "Docker"],
   },
 ];
 
