@@ -61,6 +61,14 @@ const projects = [
       "Projet en HTML / CSS effectué en formation en responsive / mobile first",
     techno: ["HTML", "CSS"],
   },
+  {
+    image: "/images/skillswap.webp",
+    alt: "photo du projet",
+    title: "SkillSwap",
+    link: "https://github.com/AnthonyMarcelin/SkillSwap",
+    description: "Plateforme de d'echange de competences en react / API",
+    techno: ["REACT", "Typescript", "PostgreSQL", "ExpressJS", "Docker"],
+  },
 ];
 
 export default projects;
