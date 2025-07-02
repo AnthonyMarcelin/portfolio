@@ -66,7 +66,7 @@ const projects = [
     alt: "photo du projet",
     title: "SkillSwap",
     link: "https://github.com/AnthonyMarcelin/SkillSwap",
-    description: "Plateforme de d'echange de competences en react / API",
+    description: "Plateforme d’échange de compétences en React / API",
     techno: ["REACT", "Typescript", "PostgreSQL", "ExpressJS", "Docker"],
   },
 ];
