@@ -12,6 +12,7 @@ import {
   BiLogoReact,
   BiLogoTailwindCss,
   BiLogoTypescript,
+  BiLogoAngular,
 } from "react-icons/bi";
 
 const techs: { icon: IconType; color: string; name: string }[] = [
@@ -25,6 +26,7 @@ const techs: { icon: IconType; color: string; name: string }[] = [
   { icon: BiLogoMongodb, color: "text-green-500", name: "MongoDB" },
   { icon: BiLogoGraphql, color: "text-pink-500", name: "GraphQL" },
   { icon: BiLogoReact, color: "text-sky-500", name: "React" },
+  { icon: BiLogoAngular, color: "text-red-600", name: "Angular" },
   { icon: BiLogoDocker, color: "text-blue-600", name: "Docker" },
   { icon: BiLogoGit, color: "text-red-500", name: "Git" },
 ];
