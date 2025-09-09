@@ -42,6 +42,20 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 </div>
               </div>
             )}
+            {project.title === "SkillSwap" && (
+              <div className="flex flex-col gap-2 mt-2">
+                <div className="flex flex-row gap-2">
+                  <p>Go :</p>
+                  <a
+                    href="https://skillswap.up.railway.app/"
+                    target="blank"
+                    className="w-fit"
+                  >
+                    Skillswap
+                  </a>
+                </div>
+              </div>
+            )}
             <p className="text-gray-400">{project.description}</p>
           </div>
 
