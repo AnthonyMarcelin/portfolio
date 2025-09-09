@@ -1,11 +1,12 @@
 const projects = [
   {
-    image: "/images/portfolio.webp",
-    alt: "photo de mon portfolio",
-    title: "Mon portfolio",
-    link: "https://github.com/AnthonyMarcelin/portfolio",
-    description: "Création de mon portfolio",
-    techno: ["React", "Tailwind", "Typescript"],
+    image: "/images/atasoif.webp",
+    alt: "photo du projet",
+    title: "A ta soif !",
+    link: "https://github.com/AnthonyMarcelin/SpiritsManagement-FRONT",
+    description:
+      "Application de bibliothèque de whisky, rhum et bière avec Angular",
+    techno: ["Angular", "Typescript"],
   },
   {
     image: "/images/skillswap.webp",
@@ -23,6 +24,14 @@ const projects = [
     description:
       "Création d'une api pour a terme créer une appli de gestion de favoris de spiritueux, dont whisky en priorité.",
     techno: ["Javascript", "PostgreSQL"],
+  },
+  {
+    image: "/images/portfolio.webp",
+    alt: "photo de mon portfolio",
+    title: "Mon portfolio",
+    link: "https://github.com/AnthonyMarcelin/portfolio",
+    description: "Création de mon portfolio",
+    techno: ["React", "Tailwind", "Typescript"],
   },
   {
     image: "/images/ai-covoit.webp",

@@ -27,6 +27,18 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               <a href={project.link} target="blank" className="w-fit">
                 <BsLink className="text-2xl text-white transition-all duration-300 hover:scale-125 hover:text-indigo-500" />
               </a>
+              {project.title === "A ta soif !" && (
+                <>
+                  <p>Go :</p>
+                  <a
+                    href="https://www.atasoif.fr"
+                    target="blank"
+                    className="w-fit"
+                  >
+                    A ta soif !
+                  </a>
+                </>
+              )}
             </div>
             <p className="text-gray-400">{project.description}</p>
           </div>
